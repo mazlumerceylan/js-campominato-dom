@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>'Campo Minato'</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="col d-flex align-items-center py-3">
+    <label for="level">Difficoltà: </label>
+    <select class="form-select mx-3" id="level" name="level">
+      <option value="0" selected>Easy</option>
+      <option value="1">Medium</option>
+      <option value="2">Hard</option>
+    </select>
+    <button type="button" id="play" class="btn btn-success">Play</button>
+  </div>
+
+
+<main class="d-flex justify-content-center align-items-center flex-column">
+  <div class="game-wrapper">
+    <h1>Seleziona un livello di gioco e premi play</h1>
+  </div>
+  <h1 class="endMessage"></h1>
+</main>
+
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>

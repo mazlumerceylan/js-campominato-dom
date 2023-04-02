@@ -1,0 +1,61 @@
+.main-wrapper{
+  height: 100vh;
+}
+
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+}
+
+.cell{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cell.clicked{
+  background-color:darkorchid;
+  color: white;
+}
+
+.square100{
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+
+.square81{
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+}
+
+.square49{
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+}
+
+.cell.bomb{
+  background-color: brown;
+  color: white;
+}
+
+.game-wrapper{
+  position: relative;
+}
+
+.endMessage{
+  padding: 50px;
+}
+
+.end-game{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.2);
+}
